@@ -1,9 +1,4 @@
-/*!
- * Bot.js : A Twitter bot that can retweet in response to the tweets matching particluar keyword
- * Version 1.0.0
- * Created by Debashis Barman (http://www.debashisbarman.in)
- * License : http://creativecommons.org/licenses/by-sa/3.0
- */
+
 
 /* Configure the Twitter API */
 var TWITTER_CONSUMER_KEY = 'eLrBEwLL1fRXpFafOSa6ahHYZ';
@@ -12,7 +7,7 @@ var TWITTER_ACCESS_TOKEN = '838100787272220672-tn7iIyOycas0FNev5GSOw7gBMHpQZRP';
 var TWITTER_ACCESS_TOKEN_SECRET = 'fnJiX9AkZTaBuVUmQGO1BSwtu12DKngeEawpCIlEY9kK8';
 
 /* Set Twitter search phrase */
-var TWITTER_SEARCH_PHRASE = '#windy OR #wind OR #breezy OR #goflyakite';
+var TWITTER_SEARCH_PHRASE = '#Denver AND #windy OR #blownaway OR #gusty OR #breezy OR #goflyakite';
 
 var Twit = require('twit');
 
@@ -79,3 +74,10 @@ function BotRetweet() {
 
 /* Initiate the Bot */
 BotInit();
+
+/*!
+ * Bot.js : A Twitter bot that can retweet in response to the tweets matching particluar keyword
+ * Version 1.0.0
+ * Created by Debashis Barman (http://www.debashisbarman.in)
+ * License : http://creativecommons.org/licenses/by-sa/3.0
+ */
